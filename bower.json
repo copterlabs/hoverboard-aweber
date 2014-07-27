@@ -1,0 +1,30 @@
+{
+  "name": "hoverboard-aweber",
+  "version": "0.1.0",
+  "homepage": "http://github.com/copterlabs/hoverboard-aweber",
+  "authors": [
+    "Jason Lengstorf <jason@copterlabs.com>"
+  ],
+  "description": "Allows Aweber list interactions within Hoverboard projects.",
+  "main": "hoverboard-aweber.php",
+  "keywords": [
+    "aweber",
+    "newsletter",
+    "email",
+    "hoverboard",
+    "wordpress"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "aweber": "aweber/AWeber-API-PHP-Library#v1.1.12"
+  }
+}
